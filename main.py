@@ -19,6 +19,6 @@ def creationGraphe (idGraphe,url):
             kiki.ajoutLien(ligne[0],ligne[1],ligne[2])
     return kiki
 
-g1 = creationGraphe(1,"fileGraph1.csv")
+g1 = creationGraphe(1,"fileGraph2.csv")
 print()
 

@@ -16,8 +16,8 @@ class graphe:
         self._nbNoeud+=1
         self._dicoNoeuds[idNoeud]=nomNoeud
 
-    def ajoutLien(self,extremite1id, extremite2id,distance):
-        noeud1 = self._dicoNoeuds[int(extremite1id)]
+    def ajoutLien(self, xtremite1id, extremite2id, distance):
+        noeud1 = self._dicoNoeuds[int(xtremite1id)]
         noeud2 = self._dicoNoeuds[int(extremite2id)]
         lien1 = lien(noeud1,noeud2, float(distance))
         lien1id = lien1.getId()
